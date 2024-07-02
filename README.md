@@ -6,7 +6,7 @@ Script to redirect all traffic through Tor network including DNS queries for ano
 
 ## Installation
 
-```bash
+```shell
 cd /tmp/
 git clone https://github.com/neoslab/torbridge
 chmod +x /tmp/torbridge/torbridge
@@ -17,7 +17,7 @@ sudo mv /tmp/torbridge/torbridge /usr/local/bin/
 
 ## Usage
 
-```bash
+```shell
 $ sudo torbridge --help
 
 Usage: torbridge [-h|--help] [--start] [--stop] [--status] [--restart] [--showip] [--switchid] [--changemac] [--revertmac] [--version]
