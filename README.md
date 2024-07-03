@@ -7,6 +7,7 @@ Script to redirect all traffic through Tor network including DNS queries for ano
 ## Installation
 
 ```shell
+sudo apt update && sudo apt install macchanger
 cd /tmp/
 git clone https://github.com/neoslab/torbridge
 chmod +x /tmp/torbridge/torbridge
