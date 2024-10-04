@@ -103,7 +103,7 @@ function backuptorrc()
 ## -------------
 function backupresolv()
 {
-    mv /etc/resolv.conf $torbridgepath/resolv.conf.bak
+    cat /etc/resolv.conf > $torbridgepath/resolv.conf.bak
     loadstatus "[+] Backed-up Resolv" "OK" "valid"
 }
 
